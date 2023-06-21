@@ -1,0 +1,55 @@
+/* ================ Inter ================ */
+@font-face {
+    font-family: "Inter";
+    src: url("Inter/Inter-Medium.woff2") format("woff2"),
+        url("Inter/Inter-Medium.woff") format("woff");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Inter";
+    src: url("Inter/Inter-Regular.woff2") format("woff2"),
+        url("Inter/Inter-Regular.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Inter";
+    src: url("Inter/Inter-SemiBold.woff2") format("woff2"),
+        url("Inter/Inter-SemiBold.woff") format("woff");
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* ================ DM Sans ================ */
+@font-face {
+    font-family: "DM Sans";
+    src: url("Inter/DMSans-Medium.woff2") format("woff2"),
+        url("Inter/DMSans-Medium.woff") format("woff");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "DM Sans";
+    src: url("Inter/DMSans-Regular.woff2") format("woff2"),
+        url("Inter/DMSans-Regular.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "DM Sans";
+    src: url("Inter/DMSans-Bold.woff2") format("woff2"),
+        url("Inter/DMSans-Bold.woff") format("woff");
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}

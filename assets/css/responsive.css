@@ -1,0 +1,178 @@
+@media screen and (max-width: 767px) {
+    .container {
+        max-width: calc(100% - 40px);
+    }
+
+    .hide-on-pc {
+        display: none;
+    }
+
+    .header__menu {
+        display: block;
+    }
+
+    .hero {
+        margin-top: 46px;
+    }
+
+    .hero__inner {
+        flex-direction: column;
+    }
+
+    .hero__socials {
+        display: none;
+    }
+
+    .hero__content {
+        margin: 0;
+    }
+
+    .hero__heading {
+        width: 100%;
+        font-size: 3.5rem;
+        line-height: 1.14;
+    }
+
+    .hero__desc {
+        width: 86%;
+        margin-top: 20px;
+    }
+
+    .hero__btn {
+        margin-top: 20px;
+    }
+
+    .hero__card {
+        width: 100%;
+        margin-top: 40px;
+        margin-left: 0;
+    }
+
+    .hero__card-wrap {
+        width: 100%;
+    }
+
+    .hero__card-note {
+        margin-top: 58px;
+        width: 186px;
+        padding: 23px 6px 23px 15px;
+    }
+
+    .hero__card-box {
+        top: 0;
+        left: 128px;
+        width: 184px;
+        border-radius: 6px;
+        padding: 15px;
+    }
+
+    .hero__card-form {
+        align-items: center;
+        padding-bottom: 4px;
+    }
+
+    .hero__card-input {
+        padding: 0 0 4px;
+        width: 100%;
+        height: 100%;
+    }
+
+    .hero__card-input::placeholder {
+        display: flex;
+        align-items: center;
+        font-size: 0.9rem;
+    }
+
+    .hero__card-search {
+        width: 10px;
+    }
+
+    .hero__card-list {
+        margin-top: 12px;
+    }
+
+    .hero__card-item {
+        padding: 6px 13px 6px 7px;
+    }
+
+    .hero__card-item + .hero__card-item {
+        margin-top: 10px;
+    }
+
+    .hero__card-item-thumb {
+        width: 20px;
+        height: 20px;
+    }
+
+    .hero__card-item-name {
+        font-size: 0.9rem;
+    }
+
+    .hero__card-item-desc {
+        font-size: 0.7rem;
+    }
+
+    .hero__card-item-invite {
+        font-size: 0.8rem;
+    }
+
+    .hero__decor-left,
+    .hero__decor-right {
+        width: 40px;
+        height: 25px;
+    }
+
+    .hero__decor-left {
+        top: 23px;
+        left: 78px;
+    }
+
+    .hero__decor-right {
+        top: 210px;
+        left: 198px;
+    }
+
+    .hero__decor-circle {
+        top: 165px;
+        left: 272px;
+        height: 63px;
+    }
+
+    .hero__card-note-img {
+        width: 165px;
+    }
+
+    .hero__card-note-img:nth-of-type(2) {
+        width: 153px;
+    }
+
+    .hero__card-row {
+        width: calc(100% - 28px);
+        margin-top: 30px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .hero__socials {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .container {
+        max-width: calc(100% - 56px);
+    }
+
+    .hero__inner {
+        flex-direction: column;
+    }
+
+    .hero__content {
+        margin-left: 0;
+    }
+
+    .hero__card {
+        margin-top: 60px;
+        margin-left: 0;
+    }
+}
